@@ -1,5 +1,7 @@
 # Dockerfile written by Eric Mann <eric@tozny.com>
 #
+# Work derived from official PHP Docker Library:
+# Copyright (c) Docker, Inc.
 # Copyright (c) 2016 Tozny, LLC
 
 FROM alpine:3.4
