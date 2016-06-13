@@ -33,4 +33,4 @@ MAINTAINER Eric Mann
 
 WORKDIR /data
 
-CMD ["bash"]
+CMD ["/bin/sh"]
