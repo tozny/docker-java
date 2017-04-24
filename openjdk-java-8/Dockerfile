@@ -29,7 +29,8 @@ RUN set -x \
 		openjdk8="$JAVA_ALPINE_VERSION" \
 		libsodium \
 		bash \
-	&& [ "$JAVA_HOME" = "$(docker-java)" ]
+	&& [ "$JAVA_HOME" = "$(docker-java)" ] \
+	&& ln -s /usr/lib/libsodium.so.18 /usr/lib/libsodium.so
 
 MAINTAINER Eric Mann
 
